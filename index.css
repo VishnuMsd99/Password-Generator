@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Paytone+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: bisque;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.pw-container{
+    width: 400px;
+    background-color: blanchedalmond;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+.pw-header{
+    padding: 1rem;
+}
+.pw{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(189, 177, 177);
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: black;
+}
+.pw-body{
+    padding: 0 1rem 1rem;
+    font-family: 'Amaranth', sans-serif;
+}
+.form-control{
+    color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+    
+}
+.generate{
+    background-color: rgb(189, 177, 177);
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    padding:1rem;
+    font-size: .9rem;
+    margin-top: 1rem;
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    right: 0;
+    margin: 0.5rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+
+}
+.generate:hover{
+    background-color: rgb(8, 8, 8);
+    color: rgb(241, 232, 232);
+}
